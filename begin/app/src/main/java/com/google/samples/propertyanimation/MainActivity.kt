@@ -81,7 +81,6 @@ class MainActivity : AppCompatActivity() {
             }
             override fun onAnimationEnd(animation: Animator?) {
                 rotateButton.isEnabled = true
-
             }
         })
         animator.duration = 1000
